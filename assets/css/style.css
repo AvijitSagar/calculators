@@ -1,0 +1,130 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Roboto", sans-serif;
+}
+
+/* --------- margins start------ */
+.my-mt-80 {
+    margin-top: 80px;
+}
+
+/* --------- margins ends------ */
+
+
+/* ---------------- navbar start------------------ */
+.my-navbar-color {
+    background-color: rgb(87, 75, 175);
+}
+
+.my-navbar-text-color {
+    color: rgb(196, 187, 173);
+}
+
+/* ---------------- navbar ends------------------ */
+
+
+/* ------------- basic calculator start-------------- */
+.my-calculator-display {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-right: 15px;
+    height: 70px;
+    width: 100%;
+    text-align: right;
+    border: 1px solid rgb(131, 130, 130);
+    border-radius: 10px;
+}
+
+.my-calculator-button {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 50px;
+    background-color: #fff;
+    border: 1px solid rgb(129, 129, 129);
+}
+.my-calculator-button h2 {
+    margin: 0; /* Remove default margin */
+}
+
+.my-calculator-digits {
+    background-color: rgb(243, 243, 243);
+}
+
+.my-calculator-frame {
+    border: 5px solid rgb(77, 76, 76);
+    padding: auto;
+    border-radius: 10px;
+}
+
+.my-calculator-button:hover {
+    background-color: rgb(217, 218, 218);
+}
+
+/* ------------- basic calculator end-------------- */
+
+
+/* ------------------ calculator content start --------------- */
+.my-calculator-content{
+    margin: 0px;
+    padding: 0px;
+}
+/* ------------------ calculator content end --------------- */
+
+
+/* --------------- footer start ----------------- */
+.my-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+.my-footer-socials{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.my-footer-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    font-size: 24px;
+}
+.my-footer-link-style{
+    text-decoration: none;
+}
+
+.developed-by{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* --------------- footer ends ----------------- */
+
+
+
+/* =================== media queries start ================  */
+@media (max-width: 767.98px) {
+    .order-md-1 {
+        order: 2;
+        margin-bottom: 20px;
+    }
+
+    .order-md-2 {
+        order: 1;
+    }
+    .order-md-2 {
+        order: 3;
+    }
+
+    .my-calculator-content{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+/* =================== media queries ends ================  */
