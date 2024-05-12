@@ -1,30 +1,25 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     font-family: "Roboto", sans-serif;
 }
 
-/* --------- margins start------ */
+/* margins  */
 .my-mt-80 {
     margin-top: 80px;
 }
 
-/* --------- margins ends------ */
 
-
-/* ---------------- navbar start------------------ */
+/* navbar  */
 .my-navbar-color {
     background-color: rgb(87, 75, 175);
 }
-
 .my-navbar-text-color {
     color: rgb(196, 187, 173);
 }
 
-/* ---------------- navbar ends------------------ */
 
-
-/* ------------- basic calculator start-------------- */
+/* basic calculator  */
 .my-calculator-display {
     margin-top: 10px;
     margin-bottom: 10px;
@@ -35,58 +30,56 @@
     border: 1px solid rgb(131, 130, 130);
     border-radius: 10px;
 }
-
 .my-calculator-button {
     display: flex;
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
+    justify-content: center;
+    align-items: center;
     height: 50px;
     background-color: #fff;
     border: 1px solid rgb(129, 129, 129);
 }
 .my-calculator-button h2 {
-    margin: 0; /* Remove default margin */
+    margin: 0;
 }
-
 .my-calculator-digits {
     background-color: rgb(243, 243, 243);
 }
-
 .my-calculator-frame {
     border: 5px solid rgb(77, 76, 76);
     padding: auto;
     border-radius: 10px;
 }
-
 .my-calculator-button:hover {
     background-color: rgb(217, 218, 218);
 }
 
-/* ------------- basic calculator end-------------- */
+/* mortgage calculator  */
+.mortgage-calculate-button{
+    display: flex;
+    justify-content: center;
+}
 
 
-/* ------------------ calculator content start --------------- */
-.my-calculator-content{
+/* calculator content  */
+.my-calculator-content {
     margin: 0px;
     padding: 0px;
 }
-/* ------------------ calculator content end --------------- */
 
 
-/* --------------- footer start ----------------- */
-.my-footer{
+/* footer  */
+.my-footer {
     display: flex;
     justify-content: center;
     align-items: center;
     height: auto;
 }
-
-.my-footer-socials{
+.my-footer-socials {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.my-footer-icon{
+.my-footer-icon {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -94,16 +87,14 @@
     width: 50px;
     font-size: 24px;
 }
-.my-footer-link-style{
+.my-footer-link-style {
     text-decoration: none;
 }
-
-.developed-by{
+.developed-by {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-/* --------------- footer ends ----------------- */
 
 
 
@@ -113,15 +104,13 @@
         order: 2;
         margin-bottom: 20px;
     }
-
     .order-md-2 {
         order: 1;
     }
     .order-md-2 {
         order: 3;
     }
-
-    .my-calculator-content{
+    .my-calculator-content {
         padding-left: 15px;
         padding-right: 15px;
     }
